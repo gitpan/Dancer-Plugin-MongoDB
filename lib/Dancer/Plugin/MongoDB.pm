@@ -24,13 +24,16 @@ if ($dancer_version == 1) {
 
 Dancer::Plugin::MongoDB - MongoDB connections as provided by Mango.
 
-=head STATUS
+=head1 STATUS
 
 Horribly under-tested, may induce seizures and sudden death. You have been warned.
+Additionally, this module will require MongoDB 2.6+. This is primarily because Mango
+requires it. You will get an error "MongoDB wire protocol version 2 required" if this
+is not the case.
 
 =cut
 
-our $VERSION = 0.30;
+our $VERSION = 0.31;
 
 my $settings = undef;
 my $conn = undef;
@@ -287,7 +290,7 @@ __END__
 
 =head1 VERSION
 
-version 0.30
+version 0.31
 
 =head1 SYNOPSIS
 
