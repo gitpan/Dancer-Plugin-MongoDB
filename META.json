@@ -33,10 +33,10 @@
       "runtime" : {
          "requires" : {
             "Dancer::Plugin" : "0",
-            "Mango" : "0.31"
+            "Mango" : "0.30"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.31"
+   "version" : "0.32"
 }

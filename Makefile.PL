@@ -23,9 +23,9 @@ my %WriteMakefileArgs = (
   'NAME' => 'Dancer::Plugin::MongoDB',
   'PREREQ_PM' => {
     'Dancer::Plugin' => '0',
-    'Mango' => '0.31'
+    'Mango' => '0.30'
   },
-  'VERSION' => '0.31',
+  'VERSION' => '0.32',
   'test' => {
     'TESTS' => 't/*.t'
   }
