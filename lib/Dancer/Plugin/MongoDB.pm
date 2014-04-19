@@ -33,7 +33,7 @@ is not the case.
 
 =cut
 
-our $VERSION = 0.32;
+our $VERSION = 0.33;
 
 my $settings = undef;
 my $conn = undef;
@@ -290,7 +290,7 @@ __END__
 
 =head1 VERSION
 
-version 0.32
+version 0.33
 
 =head1 SYNOPSIS
 

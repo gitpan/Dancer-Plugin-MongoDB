@@ -4,13 +4,14 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.96;
 
 
 
 my %WriteMakefileArgs = (
   'ABSTRACT' => 'Dancer plugin for MongoDB - Using Mango',
   'AUTHOR' => 'Tyler Hardison <tyler@seraph-net.net>',
+  'MIN_PERL_VERSION' => '5.6.0',
   'BUILD_REQUIRES' => {
     'Test::More' => '0'
   },
@@ -25,7 +26,7 @@ my %WriteMakefileArgs = (
     'Dancer::Plugin' => '0',
     'Mango' => '0.30'
   },
-  'VERSION' => '0.32',
+  'VERSION' => '0.33',
   'test' => {
     'TESTS' => 't/*.t'
   }
