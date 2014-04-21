@@ -33,7 +33,7 @@ is not the case.
 
 =cut
 
-our $VERSION = 0.33;
+our $VERSION = 0.34;
 
 my $settings = undef;
 my $conn = undef;
@@ -166,7 +166,7 @@ sub _get_connection {
 
 
     if (defined $settings->{db_credentials} and ref $settings->{db_credentials} eq 'ARRAY') {
-        $dbh->credentials($settings->db_credentials);
+        $dbh->credentials($settings->{db_credentials});
     }
 
     if (defined $settings->{ioloop}) {
@@ -290,7 +290,7 @@ __END__
 
 =head1 VERSION
 
-version 0.33
+version 0.34
 
 =head1 SYNOPSIS
 

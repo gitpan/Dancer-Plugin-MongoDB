@@ -21,4 +21,4 @@ requires:
   Dancer::Plugin: '0'
   Mango: '0.30'
   perl: '5.006000'
-version: '0.33'
+version: '0.34'
