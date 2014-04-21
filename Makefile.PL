@@ -26,7 +26,7 @@ my %WriteMakefileArgs = (
     'Dancer::Plugin' => '0',
     'Mango' => '0.30'
   },
-  'VERSION' => '0.34',
+  'VERSION' => '0.35',
   'test' => {
     'TESTS' => 't/*.t'
   }
